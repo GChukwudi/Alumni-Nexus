@@ -73,15 +73,16 @@ nav .a {
     text-align: center;
     margin-top: -0.92%;
     background-size: cover;
-}
-.events h2 {
-    font-size: 60px;
+    /* overflow: auto; */
+    width: 100%;
+    max-width: 100%;
 }
 .event-category {
-    display: flex;
+    display: inline-block;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-top: 30px;
+    overflow-x: scroll;
 }
 .event-card {
     background-color: #fff;
@@ -89,7 +90,7 @@ nav .a {
     border-radius: 20px;
     padding: 10px;
     margin: 5px;
-    width: calc(20% - 15px); /* Three cards per row */
+    width: calc(22% - 20px);
     box-shadow: 3px 10px 15px rgba(0, 0, 0, 0.1);
 }
 .event-card:hover {
