@@ -1,0 +1,127 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    font-size: large;
+}
+header {
+    background-image: url(img/multi-ethnic-group-graduates-smiling-with-success-generated-by-ai.jpg);
+    background-size: cover;
+    height: 400px;
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    padding: 3% 7% 4% 5%;
+    filter: grayscale(10%);
+    left: -0.025%;
+    right: -0.025%;
+    top: 0%;
+    bottom: -50.48%;
+    z-index: 0;
+}
+header .logo {
+    flex: 1;
+    font-size: 20px;
+    z-index: 0;
+    font-family: sans-serif;
+}
+h1 {
+    font-size: 100px;
+    margin-top: 15%;
+    font-weight: bold;
+    text-align: center;
+}
+header .logo .ne {
+    color: rgb(249, 220, 0);
+}
+h1 .ne {
+    color: rgb(249, 220, 0);
+}
+nav {
+    flex: 3;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0px;
+    text-align: right;
+    justify-content: flex-end;
+    display: flex;
+    gap: 10px;
+    margin-right: 10px;
+    margin-top: 3%;
+    width: 1103.41px;
+    height: 29.46px;
+    top: 3.02px;
+    left: 171.59px;
+    padding: 0px, 0px, 0px, 0px;
+}
+nav .a {
+    color: white;
+    text-decoration: none;
+}
+.home {
+    background-color: rgb(37, 33, 33);
+    padding: 20px;
+    text-align: center;
+    margin-top: 2px;
+    font-size: 22px;
+    color: #ffff;
+}
+.events {
+    text-align: center;
+    margin-top: -0.92%;
+    background-size: cover;
+}
+.events h2 {
+    font-size: 60px;
+}
+.event-category {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.event-card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 5px;
+    width: calc(20% - 15px); /* Three cards per row */
+    box-shadow: 3px 10px 15px rgba(0, 0, 0, 0.1);
+}
+.event-card:hover {
+    transform: translateY(-15px);
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
+}
+.event-card img {
+    max-width: 100%;
+    height: 300px;
+    width: 300px;
+    border-radius: -10px;
+}
+.event-card h4 {
+    font-size: 20px;
+    margin-top: -4px;
+    color: #232323;
+}
+.event-card p {
+    font-size: 16px;
+    color: #2f2e2e;
+    margin-top: -10%;
+    margin: 2%;
+}
+.event-card .reserve-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+.event-card .reserve-button:hover {
+    background-color: #555;
+}
