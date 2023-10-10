@@ -235,7 +235,7 @@ footer {
     font-size: 16px;
 }
 footer .logo {
-    margin-bottom: 1em !important;
+    margin-bottom: 1em;
     flex: 1;
     font-size: 20px;
     z-index: 0;
@@ -247,7 +247,7 @@ footer .logo .ne {
     color: rgb(249, 220, 0);
 }
 footer p {
-    margin-bottom: 0!important;
+    margin-bottom: 0;
     opacity: 70%;
 }
 .engage {
