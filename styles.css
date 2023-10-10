@@ -62,7 +62,7 @@ nav .a {
     text-decoration: none;
 }
 .home {
-    background-color: rgb(37, 33, 33);
+    background-color: #071629;
     padding: 20px;
     text-align: center;
     margin-top: 2px;
@@ -77,12 +77,21 @@ nav .a {
     width: 100%;
     max-width: 100%;
 }
+.events h2 {
+    font-size: 50px;
+    text-decoration: underline;
+}
 .event-category {
-    display: inline-block;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-top: 30px;
-    overflow-x: scroll;
+    display: flex;
+    flex-direction: row;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-top: -3%;
+    top: 1228px;
+    left: 106px;
+    width: 1228px;
+    justify-content: center;
+    text-align: center;
 }
 .event-card {
     background-color: #fff;
@@ -101,28 +110,64 @@ nav .a {
     max-width: 100%;
     height: 300px;
     width: 300px;
-    border-radius: -10px;
+    border-radius: 50%;
 }
 .event-card h4 {
     font-size: 20px;
-    margin-top: -4px;
+    margin-top: 5px;
+    margin-bottom: 10px;
     color: #232323;
 }
 .event-card p {
     font-size: 16px;
-    color: #2f2e2e;
+    color: #000000;
     margin-top: -10%;
     margin: 2%;
 }
+.event-card a {
+    text-decoration: none;
+    color: black;
+}
 .event-card .reserve-button {
-    background-color: #333;
+    background-color: #09121d;
     color: #fff;
     border: none;
-    padding: 10px 20px;
+    padding: 15px 20px;
+    font-size: 13px;
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: background-color 0.4s;
     margin-top: 20px;
 }
 .event-card .reserve-button:hover {
-    background-color: #555;
+    background-color: #181d23;
+}
+.about {
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+}
+.team-member {
+  width: 150px;
+  padding: 0;
+  margin-right: 2rem;
+  display: flex;
+  /* left: 217px; */
+  top: 90%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.team-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 7rem;
 }
