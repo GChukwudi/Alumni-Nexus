@@ -76,6 +76,7 @@ nav .a {
     /* overflow: auto; */
     width: 100%;
     max-width: 100%;
+    /* justify-content: center; */
 }
 .events h2 {
     font-size: 50px;
@@ -235,7 +236,7 @@ footer {
     font-size: 16px;
 }
 footer .logo {
-    margin-bottom: 1em;
+    /* margin-bottom: 1em; */
     flex: 1;
     font-size: 20px;
     z-index: 0;
@@ -249,13 +250,39 @@ footer .logo .ne {
 footer p {
     margin-bottom: 0;
     opacity: 70%;
+    line-height: -15px;
 }
 .engage {
     display: flex;
-    /* justify-content: space-around; */
-    padding: 4rem 8rem 4rem 8rem;
+    justify-content: space-around;
+    /* padding: 4rem 8rem 4rem 8rem; */
     text-align: right;
+    /* margin-right: 10%; */
+    margin-left: 80%;
 }
-.engage a {
 
+@media screen and (max-width: 768px) {
+    header {
+        height: auto;
+        padding: 10% 5%;
+    }
+
+    header .logo {
+        flex: auto;
+        text-align: center;
+        margin: 0;
+    }
+
+    h1 {
+        font-size: 60px;
+        margin-top: 5%;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        margin: 20px 0;
+    }
 }
