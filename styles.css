@@ -80,7 +80,7 @@ nav .a {
     border-radius: 20px;
     padding: 10px;
     margin: 10px;
-    width: calc(30% - 20px);
+    width: calc(24% - 20px);
     box-shadow: 3px 10px 15px rgba(0, 0, 0, 0.1);
 }
 
@@ -93,6 +93,8 @@ nav .a {
     max-width: 100%;
     height: auto;
     border-radius: 50%;
+    height: 300px;
+    width: 300px;
 }
 
 .event-card h4 {
@@ -135,14 +137,13 @@ nav .a {
         height: 300px;
         padding: 2% 5% 3% 3%;
     }
+    
     h1 {
         font-size: 36px;
     }
-    .logo {
-        font-size: 10px;
-    }
+    
     nav {
-        font-size: 6px;
+        font-size: 14px;
         margin-top: 4%;
     }
     
@@ -153,21 +154,28 @@ nav .a {
     
     .about h2 {
         font-size: 32px;
+        margin-top: 200px;
     }
     
     .team-block {
         margin-bottom: 2rem;
     }
     
-    .video {
-        margin-top: 5%;
+    video {
+        /* margin-top: 5%; */
+        width: auto;
+        max-height: 400px;
     }
     
     .new {
         font-size: 16px;
         margin-top: 30px;
+        flex-direction: column;
+        text-align: center;
     }
-    
+    .video-block {
+        margin-top: 20px;
+    }
     footer {
         padding: 10px 0;
     }
@@ -181,9 +189,7 @@ nav .a {
     header {
         height: 350px;
     }
-    .logo {
-        font-size: 16px;
-    }
+    
     h1 {
         font-size: 60px;
     }
@@ -304,7 +310,7 @@ nav .a {
     color: #000000;
 }
 
-.video {
+/* .video {
     margin-top: 3%;
 }
 
@@ -319,6 +325,37 @@ nav .a {
     align-items: center;
     font-size: 18px;
     margin-top: 50px;
+} */
+#about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2%;
+}
+
+.new {
+    display: flex;
+    align-items: center;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 16px;
+    margin: 0 20px;
+}
+.video-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
 }
 
 .line {
