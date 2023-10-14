@@ -55,9 +55,14 @@ nav .a {
 }
 
 .events {
+    /* To be handled by Favour Akinwade */
     text-align: center;
-    margin-top: -2%;
+    margin-top: -0.92%;
+    background-size: cover;
+    /* overflow: auto; */
     width: 100%;
+    max-width: 100%;
+    /* justify-content: center; */
 }
 
 .events h2 {
