@@ -36,17 +36,20 @@ h1 .ne {
 
 /* Updated Navigation Styles */
 nav {
-    font-size: 16px;
-    font-weight: 700;
-    text-align: center;
     display: flex;
+    justify-content: flex-end; /* Align to the right */
     gap: 10px;
-    margin-top: 2%; /* Adjusted margin-top */
+    margin-top: 2%;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
-nav .a {
+nav a {
     color: white;
     text-decoration: none;
+    padding: 10px;
+    text-align: center;
 }
 
 /* Media Query for Small Screens */
@@ -56,10 +59,10 @@ nav .a {
         flex-direction: column;
         position: absolute;
         top: 70px;
-        left: 0;
+        right: 0;
         width: 100%;
         background-color: #333;
-        margin-top: 0; /* Adjusted margin-top */
+        margin-top: 0;
     }
 
     nav a {
@@ -78,13 +81,8 @@ nav .a {
     .menu-icon {
         display: none;
     }
-
-    nav {
-        display: flex;
-        gap: 10px;
-        margin-top: 2%; /* Adjusted margin-top */
-    }
 }
+
 .home {
     background-color: #071629;
     padding: 20px;
