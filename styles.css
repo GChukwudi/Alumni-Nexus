@@ -52,7 +52,6 @@ nav .a {
     margin-top: 2px;
     font-size: 20px;
     color: #fff;
-
 }
 
 .events {
@@ -112,20 +111,6 @@ nav .a {
     text-decoration: none;
     color: black;
 }
-
-.event-card .reserve-button {
-    background-color: #09121d;
-    color: #fff;
-    border: none;
-    padding: 15px 20px;
-    font-size: 14px;
-    cursor: pointer;
-    transition: background-color 0.4s;
-    margin-top: 20px;
-}
-.event-card .reserve-button:hover {
-    background-color: #181d23;
-}
 .about {
     display: flex;
     flex-direction: column;
@@ -137,7 +122,9 @@ nav .a {
         height: 300px;
         padding: 2% 5% 3% 3%;
     }
-    
+    header h2 {
+        font-size: 18px;
+    }
     h1 {
         font-size: 36px;
     }
@@ -154,7 +141,7 @@ nav .a {
     
     .about h2 {
         font-size: 32px;
-        margin-top: 200px;
+        /* margin-top: 400px; */
     }
     
     .team-block {
@@ -179,7 +166,13 @@ nav .a {
     footer {
         padding: 10px 0;
     }
-    
+    footer .engage {
+        margin-top: 20px;
+    }
+    footer .logo {
+        margin: 0;
+        text-align: center;
+    }
     .engage {
         margin-left: 5%;
     }
@@ -277,7 +270,7 @@ nav .a {
 .team-member img {
     width: 200px;
     height: auto;
-    border-radius: 10px;
+    border-radius: 100px;
     margin-top: 10px;
     justify-content: center;
 }
@@ -298,12 +291,12 @@ nav .a {
 .team-member p {
     width: 100%;
     text-align: center;
-    margin-bottom: -5px;
+    margin-bottom: 5px;
 }
 
 .team-member h3 {
     font-weight: bold;
-    margin-bottom: -5px;
+    margin-bottom: 5px;
 }
 
 .team-member p a {
@@ -373,65 +366,71 @@ footer {
 footer .logo {
     font-size: 20px;
     font-family: sans-serif;
-    text-align: center;
-    margin: 5%;
+    text-align: left;
+    margin-left: 5%;
 }
 
 footer .logo .ne {
     color: rgb(249, 220, 0);
 }
 
-footer p {
-    margin: 0;
-    opacity: 70%;
-    line-height: 15px;
-}
-
-.engage {
+footer .engage {
     display: flex;
     justify-content: center;
-    margin-left: 10%;
+    margin-left: 80%;
 }
 
-form input,
-form select {
-    width: 100%;
-    margin: 10px 0;
-    padding: 10px;
-    transition: box-shadow 0.2s;
+footer .engage a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
 }
 
-form input:focus,
-form select:focus {
+footer .engage a img {
+    width: 32px;
+    height: 32px;
+}
+
+form input, form select {
+    width: 97%;
+    margin-right: 15px;
+    padding: 5px;
+    transition: box-shadow 0.01s;
+}
+form input:focus, form select:focus {
     box-shadow: 0 0 20px #c5e2d3;
 }
-
 #contact {
     background-color: #071629;
     border-radius: 3px;
-    margin: 20px 0;
+    margin: 20px;
     color: #fff;
     padding: 20px;
     text-align: center;
-    font-size: 20px;
+    margin-top: 2px;
+    margin-bottom: 15px;
+    font-size: 18px;
 }
-
 form {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
-
+/*form label {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}*/
 .reserve-slot {
     background-color: rgb(249, 220, 0);
     color: #020911;
     border: none;
     padding: 15px;
-    font-size: 16px;
+    font-size: 15px;
+    text-align: center;
     cursor: pointer;
     transition: background-color 0.4s;
     margin: 20px;
     border-radius: 10px;
 }
-
-/* Add media queries for different screen sizes here */
