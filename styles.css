@@ -146,12 +146,15 @@ nav .a {
 .event-card .reserve-button:hover {
     background-color: #181d23;
 }
+
 .about {
-    /* <!-- To be handled by Joy --> */
+    /* This section of our reponsive design style the about class from the html codes 
+    Authour Joy Offere--> */
     display: flex;
     flex-direction: column;
     padding: 2%;
 }
+
 .team-member {
   width: 200px;
   padding: 0;
@@ -204,6 +207,7 @@ nav .a {
     flex-direction: column;
     display: flex;
 }
+
 .new {
     /* To be handled by Bavu */
   display: flex;
