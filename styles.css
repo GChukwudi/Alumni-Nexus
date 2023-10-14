@@ -75,10 +75,10 @@ nav .a {
     text-align: center;
     margin-top: -0.92%;
     background-size: cover;
-    /* overflow: auto; */
+     overflow: auto; 
     width: 100%;
     max-width: 100%;
-    /* justify-content: center; */
+     justify-content: center; 
 }
 .events h2 {
     font-size: 50px;
