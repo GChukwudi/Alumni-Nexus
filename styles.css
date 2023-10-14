@@ -294,3 +294,14 @@ form {
     margin-bottom: 10px;
     font-size: 20px;
 }*/
+.reserve-slot {
+    background-color: rgb(249, 220, 0);
+    color: #020911;
+    border: none;
+    padding: 15px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.4s;
+    margin: 20px;
+    border-radius: 10px;
+}
