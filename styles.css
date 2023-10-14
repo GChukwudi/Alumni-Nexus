@@ -4,6 +4,7 @@ body {
     padding: 0;
     font-size: 16px;
 }
+
 header {
     background-image: url(img/multi-ethnic-group-graduates-smiling-with-success-generated-by-ai.jpg);
     background-size: cover;
@@ -15,35 +16,74 @@ header {
     padding: 3% 7% 4% 5%;
     filter: grayscale(10%);
 }
-header .logo{
+
+header .logo {
     font-size: 20px;
     font-family: sans-serif;
 }
+
 h1 {
     font-size: 50px;
     margin-top: 10%;
     font-weight: bold;
     text-align: center;
 }
-h2 .ne {
-    color: rgb(249, 220, 0);
-}
+
+h2 .ne,
 h1 .ne {
     color: rgb(249, 220, 0);
 }
+
+/* Updated Navigation Styles */
 nav {
     font-size: 16px;
     font-weight: 700;
     text-align: center;
     display: flex;
     gap: 10px;
-    margin-top: -23%;
-    margin-left: 60%;
-    font-size: 20px;
+    margin-top: 2%; /* Adjusted margin-top */
 }
+
 nav .a {
     color: white;
     text-decoration: none;
+}
+
+/* Media Query for Small Screens */
+@media only screen and (max-width: 600px) {
+    nav {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        background-color: #333;
+        margin-top: 0; /* Adjusted margin-top */
+    }
+
+    nav a {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+    }
+}
+
+/* Hide menu icon on larger screens */
+@media only screen and (min-width: 601px) {
+    .menu-icon {
+        display: none;
+    }
+
+    nav {
+        display: flex;
+        gap: 10px;
+        margin-top: 2%; /* Adjusted margin-top */
+    }
 }
 .home {
     background-color: #071629;
