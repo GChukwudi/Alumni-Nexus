@@ -177,6 +177,7 @@ nav .a {
     footer .logo {
         margin: 0;
         text-align: center;
+        flex-wrap: wrap;
     }
     .engage {
         margin-left: 5%;
@@ -335,6 +336,7 @@ nav .a {
 .new {
     display: flex;
     align-items: center;
+    margin-top: -1%;
 }
 
 h2 {
@@ -382,7 +384,8 @@ footer .logo .ne {
 footer .engage {
     display: flex;
     justify-content: center;
-    margin-left: 80%;
+    margin-left: 60%;
+    margin-top: -5%;
 }
 
 footer .engage a {
