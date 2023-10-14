@@ -13,8 +13,8 @@ Getting Started
 ## Project Structure
 * index.html: The main HTML file for the contest entry.
 * stle.css/: Directory containing CSS files for styling.
-* images/: Directory for storing image assets.
--- Technologies Used
+* images/: Directory for storing image assets. 
+#### Technologies Used
 HTML
 CSS
 Contribution
