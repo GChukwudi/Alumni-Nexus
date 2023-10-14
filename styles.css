@@ -65,6 +65,14 @@ nav a {
         margin-top: 0;
     }
 
+    nav.active {
+        display: flex;
+    }
+
+    nav:not(.active) {
+        display: none; /* Hide by default when not active */
+    }
+
     nav a {
         padding: 10px;
         text-align: center;
@@ -73,7 +81,29 @@ nav a {
     .menu-icon {
         display: block;
         cursor: pointer;
+        position: absolute;
+        top: 10px;
+        right: 10px; /* Adjusted right position */
     }
+}
+
+
+/* Default styles for larger screens */
+nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 2%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
 }
 
 /* Hide menu icon on larger screens */
@@ -82,6 +112,7 @@ nav a {
         display: none;
     }
 }
+
 
 .home {
     background-color: #071629;
