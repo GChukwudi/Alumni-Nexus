@@ -5,58 +5,41 @@ body {
     font-size: 16px;
 }
 header {
-    /* To be handled by  God'sfavour */
     background-image: url(img/multi-ethnic-group-graduates-smiling-with-success-generated-by-ai.jpg);
     background-size: cover;
     height: 400px;
     color: white;
     position: relative;
     display: flex;
-    flex-direction: row;
-    flex: auto;
+    flex-direction: column;
     padding: 3% 7% 4% 5%;
     filter: grayscale(10%);
-    left: -0.025%;
-    right: -0.025%;
-    top: 0%;
-    bottom: -50.48%;
-    z-index: 0;
 }
-header .logo {
-    flex: 1;
+header .logo{
     font-size: 20px;
-    z-index: 0;
     font-family: sans-serif;
 }
 h1 {
-    font-size: 100px;
+    font-size: 50px;
     margin-top: 10%;
     font-weight: bold;
     text-align: center;
 }
-header .logo .ne {
+h2 .ne {
     color: rgb(249, 220, 0);
 }
 h1 .ne {
     color: rgb(249, 220, 0);
 }
 nav {
-    flex: 3;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 700;
-    line-height: 15px;
-    letter-spacing: 0px;
-    text-align: right;
-    justify-content: flex-end;
+    text-align: center;
     display: flex;
     gap: 10px;
-    margin-right: 10px;
-    margin-top: 6%;
-    width: 1103.41px;
-    height: 29.46px;
-    top: 3.02px;
-    left: 171.59px;
-    padding: 0px, 0px, 0px, 0px;
+    margin-top: -23%;
+    margin-left: 60%;
+    font-size: 20px;
 }
 nav .a {
     color: white;
@@ -67,78 +50,73 @@ nav .a {
     padding: 20px;
     text-align: center;
     margin-top: 2px;
-    font-size: 22px;
-    color: #ffff;
+    font-size: 20px;
+    color: #fff;
+
 }
+
 .events {
-    /* To be handled by Favour Akinwade */
     text-align: center;
-    margin-top: -0.92%;
-    background-size: cover;
-    /* overflow: auto; */
+    margin-top: -2%;
     width: 100%;
-    max-width: 100%;
-    /* justify-content: center; */
 }
+
 .events h2 {
-    font-size: 50px;
+    font-size: 40px;
     text-decoration: underline;
     margin-top: 10px;
 }
+
 .event-category {
     display: flex;
-    flex-direction: row;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    margin-top: -3%;
-    top: 1228px;
-    left: 106px;
-    width: 1228px;
+    flex-wrap: wrap;
     justify-content: center;
     text-align: center;
 }
+
 .event-card {
     background-color: #fff;
     border: 1px solid #ccc;
     border-radius: 20px;
     padding: 10px;
-    margin: 5px;
-    width: calc(22% - 20px);
+    margin: 10px;
+    width: calc(30% - 20px);
     box-shadow: 3px 10px 15px rgba(0, 0, 0, 0.1);
 }
+
 .event-card:hover {
     transform: translateY(-15px);
     box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
 }
+
 .event-card img {
     max-width: 100%;
-    height: 300px;
-    width: 300px;
+    height: auto;
     border-radius: 50%;
 }
+
 .event-card h4 {
-    font-size: 20px;
-    margin-top: 5px;
-    /*  */
-    margin-bottom: 10px;
+    font-size: 18px;
+    margin: 5px 0;
     color: #232323;
 }
+
 .event-card p {
     font-size: 16px;
-    color: #000000;
-    margin-top: -10%;
-    margin: 2%;
+    margin: 5px 0;
 }
+
 .event-card a {
     text-decoration: none;
     color: black;
 }
+
 .event-card .reserve-button {
     background-color: #09121d;
     color: #fff;
     border: none;
     padding: 15px 20px;
-    font-size: 13px;
+    font-size: 14px;
     cursor: pointer;
     transition: background-color 0.4s;
     margin-top: 20px;
@@ -146,86 +124,76 @@ nav .a {
 .event-card .reserve-button:hover {
     background-color: #181d23;
 }
-
 .about {
-    /* This section of our reponsive design style the about class from the html codes 
-    Authour Joy Offere--> */
     display: flex;
     flex-direction: column;
     padding: 2%;
 }
-
 .team-member {
   width: 200px;
   padding: 0;
+  /* text-align: center; */
   margin-right: 2rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  z-index: 1;
-  gap: -32px;
-  font-size: 16px;
+  justify-content: space-evenly;
 }
+
 .team-member img {
-    width: 250px;
-    height: 250px;
+    max-width: 23%;
+    height: auto;
     border-radius: 50%;
     margin-top: 10px;
 }
+
 .about h2 {
     text-align: center;
-    font-size: 40px;
+    font-size: 36px;
     margin-top: -0.2%;
 }
+
 .team-block {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
-    margin-bottom: 7rem;
+    margin-bottom: 4rem;
 }
+
 .team-member p {
-    margin-bottom: -2%;
-    width: 260px;
+    width: 100%;
     text-align: center;
 }
+
 .team-member h3 {
     font-weight: bold;
-    margin-bottom: -5%;
 }
+
 .team-member p a {
     color: #000000;
 }
+
 .video {
-    justify-content: right;
-    /* position: absolute; */
     margin-top: 3%;
-    margin-left: 6%;
 }
+
 .video-block {
-    flex-direction: column;
     display: flex;
+    flex-direction: column;
 }
 
 .new {
-    /* To be handled by Bavu */
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  /* color: white; */
-  position: relative;
-}
-.us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     font-size: 18px;
     margin-top: 50px;
-    width: 350px;
 }
+
 .line {
     background-color: #071629;
-    background-size: 100px;
 }
+
 footer {
     background-color: #071629;
     color: #fff;
@@ -233,75 +201,69 @@ footer {
     padding: 20px 0;
     font-size: 16px;
 }
+
 footer .logo {
-    /* margin-bottom: 1em; */
-    flex: 1;
     font-size: 20px;
-    z-index: 0;
     font-family: sans-serif;
-    text-align: left;
-    margin-left: 5%;
+    text-align: center;
+    margin: 5%;
 }
+
 footer .logo .ne {
     color: rgb(249, 220, 0);
 }
+
 footer p {
-    margin-bottom: 0;
+    margin: 0;
     opacity: 70%;
-    line-height: -15px;
+    line-height: 15px;
 }
+
 .engage {
     display: flex;
-    justify-content: space-around;
-    /* padding: 4rem 8rem 4rem 8rem; */
-    text-align: right;
-    /* margin-right: 10%; */
-    margin-left: 80%;
+    justify-content: center;
+    margin-left: 10%;
 }
-/* @media (min-width: 768px) {
-    
-} */
-/* forms CSS */
-form input, form select {
+
+form input,
+form select {
     width: 100%;
-    margin-right: 15px;
-    padding: 5px;
+    margin: 10px 0;
+    padding: 10px;
     transition: box-shadow 0.2s;
 }
 
-form input:focus, form select:focus {
+form input:focus,
+form select:focus {
     box-shadow: 0 0 20px #c5e2d3;
 }
+
 #contact {
     background-color: #071629;
     border-radius: 3px;
-    margin: 20px;
+    margin: 20px 0;
     color: #fff;
     padding: 20px;
     text-align: center;
-    margin-top: 2px;
-    margin-bottom: 15px;
-    font-size: 22px;
+    font-size: 20px;
 }
+
 form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
 }
-/*form label {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 20px;
-}*/
+
 .reserve-slot {
     background-color: rgb(249, 220, 0);
     color: #020911;
     border: none;
     padding: 15px;
-    font-size: 15px;
+    font-size: 16px;
     cursor: pointer;
     transition: background-color 0.4s;
     margin: 20px;
     border-radius: 10px;
 }
+
+/* Add media queries for different screen sizes here */
