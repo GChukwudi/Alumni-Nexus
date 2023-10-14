@@ -146,6 +146,7 @@ nav .a {
 .event-card .reserve-button:hover {
     background-color: #181d23;
 }
+
 .about {
     /* <!-- To be handled by Joy --> */
     display: flex;
@@ -204,6 +205,7 @@ nav .a {
     flex-direction: column;
     display: flex;
 }
+
 .new {
     /* To be handled by Bavu */
   display: flex;
