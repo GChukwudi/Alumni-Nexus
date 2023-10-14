@@ -122,7 +122,7 @@ nav .a {
     padding: 2%;
 }
 /* phones */
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     header {
         height: 300px;
         padding: 2% 5% 3% 3%;
