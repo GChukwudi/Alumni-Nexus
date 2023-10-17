@@ -19,3 +19,7 @@ HTML
 CSS
 Contribution
 Contributions and improvements to this contest entry are welcome. Feel free to fork the repository, make enhancements, and submit pull requests.
+
+
+An Image representation of our teams website
+![WhatsApp Image 2023-10-15 at 21 02 29_e91ba509](https://github.com/GChukwudi/HTML-CSS_Contest_Group_1/assets/113602216/1d0ff3ed-f9dc-4bd0-82d6-f94d392f74c4)
